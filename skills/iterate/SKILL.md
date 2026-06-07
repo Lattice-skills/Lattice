@@ -1,6 +1,6 @@
 ---
 name: iterate
-description: Use this skill in Phase 5 (build v1) and Phase 6 (iterate 3–4 cycles) of the Lattice workflow. The iterate skill is the heart of Lattice: it builds the first version of the frontend in the user's stack, then runs feedback cycles that converge on the design the user actually wanted. The iterate skill enforces specificity — vague feedback ("make it better," "feels off," "doesn't feel right") triggers a question + recommendation flow with explicit reasoning. Strictness escalates over cycles. There is a hard cap of 5 cycles. The `anti-default-aesthetic` constraint is active throughout.
+description: "Use this skill in Phase 5 (build v1) and Phase 6 (iterate 3–4 cycles) of the Lattice workflow. The iterate skill is the heart of Lattice: it builds the first version of the frontend in the user's stack, then runs feedback cycles that converge on the design the user actually wanted. The iterate skill enforces specificity — vague feedback (\"make it better,\" \"feels off,\" \"doesn't feel right\") triggers a question + recommendation flow with explicit reasoning. Strictness escalates over cycles. There is a hard cap of 5 cycles. The `anti-default-aesthetic` constraint is active throughout."
 ---
 
 # Iterate

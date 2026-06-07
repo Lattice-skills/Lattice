@@ -1,6 +1,6 @@
 ---
 name: references
-description: Use this skill in two phases of the Lattice workflow: (1) Phase 2 — direction selection, where the agent proposes 3–5 UI directions with reference sites based on `brief.md`; (2) Phase 3 — screenshot collection & multimodal analysis, where the agent analyzes 5–10 reference screenshots the user provides and extracts color, typography, spacing, layout, elevation, and motion patterns into `analysis.md`. In Phase 2, the agent first searches the web for matching reference sites, then falls back to the 5 starter archetypes in `references/catalog/`, then falls back to its own knowledge of well-designed sites. In Phase 3, the agent reads each image multimodally and produces a structured analysis.
+description: "Use this skill in two phases of the Lattice workflow: (1) Phase 2 — direction selection, where the agent proposes 3–5 UI directions with reference sites based on `brief.md`; (2) Phase 3 — screenshot collection & multimodal analysis, where the agent analyzes 5–10 reference screenshots the user provides and extracts color, typography, spacing, layout, elevation, and motion patterns into `analysis.md`. In Phase 2, the agent first searches the web for matching reference sites, then falls back to the 5 starter archetypes in `references/catalog/`, then falls back to its own knowledge of well-designed sites. In Phase 3, the agent reads each image multimodally and produces a structured analysis."
 ---
 
 # References

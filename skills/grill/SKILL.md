@@ -1,6 +1,6 @@
 ---
 name: grill
-description: Use this skill in two situations: (1) Phase 1 of the Lattice workflow — to interview the user about their product, audience, brand vibe, and anti-references, and produce `brief.md`; (2) Phase 4 of the Lattice workflow — to align with the user on the delta between their reference screenshots and the product they actually want to build, and produce `decisions.md`. The grill is conversational, one question at a time, never form-like. The agent always has a recommendation. The user is the director, not the only source of ideas.
+description: "Use this skill in two situations: (1) Phase 1 of the Lattice workflow — to interview the user about their product, audience, brand vibe, and anti-references, and produce `brief.md`; (2) Phase 4 of the Lattice workflow — to align with the user on the delta between their reference screenshots and the product they actually want to build, and produce `decisions.md`. The grill is conversational, one question at a time, never form-like. The agent always has a recommendation. The user is the director, not the only source of ideas."
 ---
 
 # Grill

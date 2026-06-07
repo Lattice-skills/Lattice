@@ -1,6 +1,6 @@
 ---
 name: enforce-design
-description: Use this skill in Phase 8 of the Lattice workflow — when `DESIGN.md` exists in the project root. The skill runs in consistency mode: every piece of frontend work is checked against `DESIGN.md` before it lands. Tokens only — no inline styles, no new component without a DESIGN.md entry, no token changes without updating DESIGN.md first. The `no-inline-styles` constraint is active and aggressive. The skill is the discipline layer that keeps the design system from rotting.
+description: "Use this skill in Phase 8 of the Lattice workflow — when `DESIGN.md` exists in the project root. The skill runs in consistency mode: every piece of frontend work is checked against `DESIGN.md` before it lands. Tokens only — no inline styles, no new component without a DESIGN.md entry, no token changes without updating DESIGN.md first. The `no-inline-styles` constraint is active and aggressive. The skill is the discipline layer that keeps the design system from rotting."
 ---
 
 # Enforce Design
