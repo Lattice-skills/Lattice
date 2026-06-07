@@ -101,13 +101,13 @@ When you invoke Lattice, the agent runs an 8-phase workflow. Each phase has a cl
 
 ```
 lattice/
-├── SKILL.md                          ← orchestrator
 ├── README.md                         ← this file
 ├── ARCHITECTURE.md                   ← architecture decisions
 ├── PRODUCT.md                        ← product context
 ├── LICENSE                           ← Apache 2.0
 │
 ├── skills/
+│   ├── lattice/SKILL.md              ← orchestrator (the 8-phase workflow)
 │   ├── grill/SKILL.md                ← interview skill
 │   ├── references/SKILL.md           ← direction + screenshot analysis
 │   ├── iterate/SKILL.md              ← build + iterate

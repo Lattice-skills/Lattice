@@ -50,16 +50,17 @@ Existing skills on skills.sh (frontend-design, web-design-guidelines, impeccable
 
 ## 5. Skill Architecture
 
-Lattice is one package containing one orchestrator and seven sub-skills. The orchestrator is itself a skill (top-level `SKILL.md`) and its `description` triggers it. Sub-skills are folders under `skills/` with their own `SKILL.md` files.
+Lattice is one package containing one orchestrator and seven sub-skills. The orchestrator is the skill `lattice` (under `skills/lattice/`) and its `description` triggers it. Sub-skills are folders under `skills/` with their own `SKILL.md` files. The orchestrator is structurally a peer of the sub-skills — it is special only in that it coordinates the workflow rather than performing a single phase.
 
 ```
 lattice/
-├── SKILL.md                          ← Orchestrator (lattice)
 ├── README.md
 ├── ARCHITECTURE.md                   ← this file
 ├── PRODUCT.md
 ├── LICENSE                           ← Apache 2.0
 ├── skills/
+│   ├── lattice/                      ← Orchestrator (the 8-phase workflow)
+│   │   └── SKILL.md
 │   ├── grill/                        ← product brief + alignment interview
 │   │   └── SKILL.md
 │   ├── references/                   ← web search + multimodal screenshot analysis

@@ -10,7 +10,7 @@ The grill is Lattice's interview skill. It runs in two phases of the Lattice wor
 - **Phase 1 — Product Grill:** interview the user to produce `brief.md`. The brief is the design brief the rest of the workflow re-reads in every subsequent phase.
 - **Phase 4 — Alignment Grill:** present a synthesis of the references and ask alignment questions, one at a time, until the user is ready to build. The output is `decisions.md`.
 
-This skill assumes the Lattice orchestrator (`SKILL.md` at the repo root) has already been activated and the user has confirmed the workflow. If it has not, defer to the orchestrator's Phase 0 first.
+This skill assumes the Lattice orchestrator (`skills/lattice/SKILL.md`) has already been activated and the user has confirmed the workflow. If it has not, defer to the orchestrator's Phase 0 first.
 
 ---
 
